@@ -11,7 +11,7 @@ func main() {
 	fmt.Println("Dengan Pointer", nama) // Nama Berubah, karena string termasuk value type, bukan reference type. value type membutuhkan pointer untuk mengubahh data.
 	// silahkan lihat gambar, variable-type.png
 
-	dataSlice := []string{"aku", "saya", "dia", "mekera"}
+	dataSlice := []string{"aku", "saya", "dia", "mereka"}
 
 	ubahSlice(dataSlice) // data berubah karena, slice adalah reference type, jadi tidak memerlukan pointer
 	fmt.Println("tanpa pointer", dataSlice)

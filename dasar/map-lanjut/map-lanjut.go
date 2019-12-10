@@ -11,7 +11,7 @@ func main() {
 }
 
 func cetakMap(dataMap map[string]string) {
-	for warna, kode := range dataMap {
-		fmt.Println("Kode untuk warna ", warna, " adalah ", kode)
+	for key, value := range dataMap {
+		fmt.Println("Kode untuk warna ", key, " adalah ", value)
 	}
 }
